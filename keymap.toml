@@ -1,0 +1,16 @@
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
+[mgr]
+prepend_keymap = [
+  { on = [ "g", "d" ], run  = "cd ~/Downloads", desc = "Cd to ~/Downloads"},
+  { on = [ "g", "v" ], run  = "cd ~/Desktop/vestack", desc = "Cd to ~/Desktop/vestack"},
+
+  { on = [ "P", "s" ], run = "plugin projects save", desc = "Save current project" },
+  { on = [ "P", "l" ], run = "plugin projects load", desc = "Load project", },
+  { on = [ "P", "P" ], run = "plugin projects load_last", desc = "Load last project" },
+  { on = [ "P", "d" ], run = "plugin projects delete", desc = "Delete project" },
+  { on = [ "P", "D" ], run = "plugin projects delete_all", desc = "Delete all projects" },
+  { on = [ "P", "m" ], run = "plugin projects 'merge current'", desc = "Merge current tab to other projects" },
+  { on = [ "P", "M" ], run = "plugin projects 'merge all'", desc = "Merge current project to other projects" }
+]
+

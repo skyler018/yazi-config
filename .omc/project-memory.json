@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-03-25T03:34:41.453Z",
+  "totalToolCalls": 7,
+  "filesAccessed": {
+    "README.md": {
+      "reads": 1,
+      "writes": 2,
+      "lastAt": "2026-03-25T03:35:03.516Z"
+    }
+  },
+  "recentFiles": [
+    "README.md"
+  ],
+  "toolStats": {
+    "TodoWrite": 3,
+    "Bash": 1,
+    "Write": 2,
+    "Read": 1
+  },
+  "lastUpdated": "2026-03-25T03:35:09.860Z"
+}

@@ -1,0 +1,19 @@
+[mgr]
+ratio = [3, 3, 10]
+
+[preview]
+max_width = 2000
+max_height = 2400
+
+
+[opener]
+edit = [
+  { run = "${EDITOR:-nvim} %s", desc = "edit", for = "unix", block = true },
+]
+
+[[plugin.prepend_previewers]]
+url = "*.md"
+run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"'
+[[plugin.prepend_previewers]]
+url = "*/"
+run = 'piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes "$1"'
