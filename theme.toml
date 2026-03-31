@@ -1,10 +1,11 @@
-[mgr]
-border_symbol = "│"
-border_style = { fg = "#555555" }
-
-[indicator]
-padding = { open = "", close = "" }
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
 
 [flavor]
 dark = "base16"
 light = "base16"
+
+[mgr]
+border_symbol = "│"
+
+[indicator]
+padding = { open = "", close = "" }
